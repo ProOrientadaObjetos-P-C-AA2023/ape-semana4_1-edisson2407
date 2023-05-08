@@ -1,0 +1,712 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Untitled",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAFF+qBWK6M3Z8Y=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model",
+			"ownedElements": [
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAFF+qBtyKM79qY=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Main",
+					"defaultDiagram": true,
+					"ownedViews": [
+						{
+							"_type": "UMLClassView",
+							"_id": "AAAAAAGH8odJhX5YUlg=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"model": {
+								"$ref": "AAAAAAGH8odJhH5W7Co="
+							},
+							"subViews": [
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "AAAAAAGH8odJhX5ZBYA=",
+									"_parent": {
+										"$ref": "AAAAAAGH8odJhX5YUlg="
+									},
+									"model": {
+										"$ref": "AAAAAAGH8odJhH5W7Co="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGH8odJhX5aELs=",
+											"_parent": {
+												"$ref": "AAAAAAGH8odJhX5ZBYA="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGH8odJhX5bWGA=",
+											"_parent": {
+												"$ref": "AAAAAAGH8odJhX5ZBYA="
+											},
+											"font": "Arial;13;1",
+											"left": 213,
+											"top": 351,
+											"width": 450.56298828125,
+											"height": 13,
+											"text": "Cheques"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGH8odJhX5cauo=",
+											"_parent": {
+												"$ref": "AAAAAAGH8odJhX5ZBYA="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"width": 73.67724609375,
+											"height": 13,
+											"text": "(from Model)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGH8odJhX5d8gs=",
+											"_parent": {
+												"$ref": "AAAAAAGH8odJhX5ZBYA="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"height": 13,
+											"horizontalAlignment": 1
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 208,
+									"top": 344,
+									"width": 460.56298828125,
+									"height": 25,
+									"stereotypeLabel": {
+										"$ref": "AAAAAAGH8odJhX5aELs="
+									},
+									"nameLabel": {
+										"$ref": "AAAAAAGH8odJhX5bWGA="
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAGH8odJhX5cauo="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGH8odJhX5d8gs="
+									}
+								},
+								{
+									"_type": "UMLAttributeCompartmentView",
+									"_id": "AAAAAAGH8odJhX5eHMY=",
+									"_parent": {
+										"$ref": "AAAAAAGH8odJhX5YUlg="
+									},
+									"model": {
+										"$ref": "AAAAAAGH8odJhH5W7Co="
+									},
+									"subViews": [
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAGH8ofyan6DSmM=",
+											"_parent": {
+												"$ref": "AAAAAAGH8odJhX5eHMY="
+											},
+											"model": {
+												"$ref": "AAAAAAGH8ofyZX6AA2I="
+											},
+											"font": "Arial;13;0",
+											"left": 213,
+											"top": 374,
+											"width": 450.56298828125,
+											"height": 13,
+											"text": "-nombreCliente: String",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAGH8ognaH6KdN8=",
+											"_parent": {
+												"$ref": "AAAAAAGH8odJhX5eHMY="
+											},
+											"model": {
+												"$ref": "AAAAAAGH8ognZH6HzcA="
+											},
+											"font": "Arial;13;0",
+											"left": 213,
+											"top": 389,
+											"width": 450.56298828125,
+											"height": 13,
+											"text": "-nombreBanco: String",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAGH8ohwGX6RAiI=",
+											"_parent": {
+												"$ref": "AAAAAAGH8odJhX5eHMY="
+											},
+											"model": {
+												"$ref": "AAAAAAGH8ohwFn6OYeg="
+											},
+											"font": "Arial;13;0",
+											"left": 213,
+											"top": 404,
+											"width": 450.56298828125,
+											"height": 13,
+											"text": "-valorCheque: double",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAGH8oiqr36YCyY=",
+											"_parent": {
+												"$ref": "AAAAAAGH8odJhX5eHMY="
+											},
+											"model": {
+												"$ref": "AAAAAAGH8oiqq36VGQQ="
+											},
+											"font": "Arial;13;0",
+											"left": 213,
+											"top": 419,
+											"width": 450.56298828125,
+											"height": 13,
+											"text": "-comision: double",
+											"horizontalAlignment": 0
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 208,
+									"top": 369,
+									"width": 460.56298828125,
+									"height": 68
+								},
+								{
+									"_type": "UMLOperationCompartmentView",
+									"_id": "AAAAAAGH8odJhX5fdwA=",
+									"_parent": {
+										"$ref": "AAAAAAGH8odJhX5YUlg="
+									},
+									"model": {
+										"$ref": "AAAAAAGH8odJhH5W7Co="
+									},
+									"subViews": [
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAGH8ojfH36fiTI=",
+											"_parent": {
+												"$ref": "AAAAAAGH8odJhX5fdwA="
+											},
+											"model": {
+												"$ref": "AAAAAAGH8ojfG36c4yo="
+											},
+											"font": "Arial;13;0",
+											"left": 213,
+											"top": 442,
+											"width": 450.56298828125,
+											"height": 13,
+											"text": "+Cheques()",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAGH8ojj+n6lEuc=",
+											"_parent": {
+												"$ref": "AAAAAAGH8odJhX5fdwA="
+											},
+											"model": {
+												"$ref": "AAAAAAGH8ojj936i+r0="
+											},
+											"font": "Arial;13;0",
+											"left": 213,
+											"top": 457,
+											"width": 450.56298828125,
+											"height": 13,
+											"text": "+Cheques(nombreCliente: String, nombreBanco: String, valorCheque: double)",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAGH8okSs36r9rA=",
+											"_parent": {
+												"$ref": "AAAAAAGH8odJhX5fdwA="
+											},
+											"model": {
+												"$ref": "AAAAAAGH8okSrn6oag8="
+											},
+											"font": "Arial;13;0",
+											"left": 213,
+											"top": 472,
+											"width": 450.56298828125,
+											"height": 13,
+											"text": "+setNombreCliente(nombreCliente: String): void",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAGH8okWun6xkjs=",
+											"_parent": {
+												"$ref": "AAAAAAGH8odJhX5fdwA="
+											},
+											"model": {
+												"$ref": "AAAAAAGH8okWt36uw7I="
+											},
+											"font": "Arial;13;0",
+											"left": 213,
+											"top": 487,
+											"width": 450.56298828125,
+											"height": 13,
+											"text": "+setNombreBanco(nombreBanco: String): void",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAGH8pBeMX8CVjc=",
+											"_parent": {
+												"$ref": "AAAAAAGH8odJhX5fdwA="
+											},
+											"model": {
+												"$ref": "AAAAAAGH8pBeLn7/HrI="
+											},
+											"font": "Arial;13;0",
+											"left": 213,
+											"top": 502,
+											"width": 450.56298828125,
+											"height": 13,
+											"text": "+setValorCheque(valorCheque: double): void",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAGH8okaIn63qY8=",
+											"_parent": {
+												"$ref": "AAAAAAGH8odJhX5fdwA="
+											},
+											"model": {
+												"$ref": "AAAAAAGH8okaHn60lEY="
+											},
+											"font": "Arial;13;0",
+											"left": 213,
+											"top": 517,
+											"width": 450.56298828125,
+											"height": 13,
+											"text": "+calcularComision(): void",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAGH8okd4X69dVc=",
+											"_parent": {
+												"$ref": "AAAAAAGH8odJhX5fdwA="
+											},
+											"model": {
+												"$ref": "AAAAAAGH8okd3n66Pjg="
+											},
+											"font": "Arial;13;0",
+											"left": 213,
+											"top": 532,
+											"width": 450.56298828125,
+											"height": 13,
+											"text": "+getNombreCliente(): String",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAGH8okhLH7DPe8=",
+											"_parent": {
+												"$ref": "AAAAAAGH8odJhX5fdwA="
+											},
+											"model": {
+												"$ref": "AAAAAAGH8okhKH7Av+U="
+											},
+											"font": "Arial;13;0",
+											"left": 213,
+											"top": 547,
+											"width": 450.56298828125,
+											"height": 13,
+											"text": "+getNombreBanco(): String",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAGH8okn+37JQwY=",
+											"_parent": {
+												"$ref": "AAAAAAGH8odJhX5fdwA="
+											},
+											"model": {
+												"$ref": "AAAAAAGH8okn+H7Gk/E="
+											},
+											"font": "Arial;13;0",
+											"left": 213,
+											"top": 562,
+											"width": 450.56298828125,
+											"height": 13,
+											"text": "+getValorCheque(): double",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAGH8ow5s37jx78=",
+											"_parent": {
+												"$ref": "AAAAAAGH8odJhX5fdwA="
+											},
+											"model": {
+												"$ref": "AAAAAAGH8ow5sH7gdMM="
+											},
+											"font": "Arial;13;0",
+											"left": 213,
+											"top": 577,
+											"width": 450.56298828125,
+											"height": 13,
+											"text": "+getComision(): double",
+											"horizontalAlignment": 0
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 208,
+									"top": 437,
+									"width": 460.56298828125,
+									"height": 158
+								},
+								{
+									"_type": "UMLReceptionCompartmentView",
+									"_id": "AAAAAAGH8odJhn5g+UI=",
+									"_parent": {
+										"$ref": "AAAAAAGH8odJhX5YUlg="
+									},
+									"model": {
+										"$ref": "AAAAAAGH8odJhH5W7Co="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLTemplateParameterCompartmentView",
+									"_id": "AAAAAAGH8odJhn5hnT4=",
+									"_parent": {
+										"$ref": "AAAAAAGH8odJhX5YUlg="
+									},
+									"model": {
+										"$ref": "AAAAAAGH8odJhH5W7Co="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"width": 10,
+									"height": 10
+								}
+							],
+							"font": "Arial;13;0",
+							"containerChangeable": true,
+							"left": 208,
+							"top": 344,
+							"width": 460.56298828125,
+							"height": 251,
+							"nameCompartment": {
+								"$ref": "AAAAAAGH8odJhX5ZBYA="
+							},
+							"attributeCompartment": {
+								"$ref": "AAAAAAGH8odJhX5eHMY="
+							},
+							"operationCompartment": {
+								"$ref": "AAAAAAGH8odJhX5fdwA="
+							},
+							"receptionCompartment": {
+								"$ref": "AAAAAAGH8odJhn5g+UI="
+							},
+							"templateParameterCompartment": {
+								"$ref": "AAAAAAGH8odJhn5hnT4="
+							}
+						}
+					]
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAGH8odJhH5W7Co=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Cheques",
+					"attributes": [
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAGH8ofyZX6AA2I=",
+							"_parent": {
+								"$ref": "AAAAAAGH8odJhH5W7Co="
+							},
+							"name": "nombreCliente",
+							"visibility": "private",
+							"type": "String"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAGH8ognZH6HzcA=",
+							"_parent": {
+								"$ref": "AAAAAAGH8odJhH5W7Co="
+							},
+							"name": "nombreBanco",
+							"visibility": "private",
+							"type": "String"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAGH8ohwFn6OYeg=",
+							"_parent": {
+								"$ref": "AAAAAAGH8odJhH5W7Co="
+							},
+							"name": "valorCheque",
+							"visibility": "private",
+							"type": "double"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAGH8oiqq36VGQQ=",
+							"_parent": {
+								"$ref": "AAAAAAGH8odJhH5W7Co="
+							},
+							"name": "comision",
+							"visibility": "private",
+							"type": "double"
+						}
+					],
+					"operations": [
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAGH8ojfG36c4yo=",
+							"_parent": {
+								"$ref": "AAAAAAGH8odJhH5W7Co="
+							},
+							"name": "Cheques"
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAGH8ojj936i+r0=",
+							"_parent": {
+								"$ref": "AAAAAAGH8odJhH5W7Co="
+							},
+							"name": "Cheques",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGH8ota6n7UsS4=",
+									"_parent": {
+										"$ref": "AAAAAAGH8ojj936i+r0="
+									},
+									"name": "nombreCliente",
+									"type": "String"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGH8ota6n7VPmo=",
+									"_parent": {
+										"$ref": "AAAAAAGH8ojj936i+r0="
+									},
+									"name": "nombreBanco",
+									"type": "String"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGH8ota6n7WSc4=",
+									"_parent": {
+										"$ref": "AAAAAAGH8ojj936i+r0="
+									},
+									"name": "valorCheque",
+									"type": "double"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAGH8okSrn6oag8=",
+							"_parent": {
+								"$ref": "AAAAAAGH8odJhH5W7Co="
+							},
+							"name": "setNombreCliente",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGH8owWY37bGI4=",
+									"_parent": {
+										"$ref": "AAAAAAGH8okSrn6oag8="
+									},
+									"name": "nombreCliente",
+									"type": "String"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGH8owWY37ckik=",
+									"_parent": {
+										"$ref": "AAAAAAGH8okSrn6oag8="
+									},
+									"type": "void",
+									"direction": "return"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAGH8okWt36uw7I=",
+							"_parent": {
+								"$ref": "AAAAAAGH8odJhH5W7Co="
+							},
+							"name": "setNombreBanco",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGH8oyL+n7nDN0=",
+									"_parent": {
+										"$ref": "AAAAAAGH8okWt36uw7I="
+									},
+									"name": "nombreBanco",
+									"type": "String"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGH8oyL+n7oaTs=",
+									"_parent": {
+										"$ref": "AAAAAAGH8okWt36uw7I="
+									},
+									"type": "void",
+									"direction": "return"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAGH8pBeLn7/HrI=",
+							"_parent": {
+								"$ref": "AAAAAAGH8odJhH5W7Co="
+							},
+							"name": "setValorCheque",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGH8pC8QH8GCw8=",
+									"_parent": {
+										"$ref": "AAAAAAGH8pBeLn7/HrI="
+									},
+									"name": "valorCheque",
+									"type": "double"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGH8pC8QH8HqBI=",
+									"_parent": {
+										"$ref": "AAAAAAGH8pBeLn7/HrI="
+									},
+									"type": "void",
+									"direction": "return"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAGH8okaHn60lEY=",
+							"_parent": {
+								"$ref": "AAAAAAGH8odJhH5W7Co="
+							},
+							"name": "calcularComision",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGH8o3yhH7twUg=",
+									"_parent": {
+										"$ref": "AAAAAAGH8okaHn60lEY="
+									},
+									"type": "void",
+									"direction": "return"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAGH8okd3n66Pjg=",
+							"_parent": {
+								"$ref": "AAAAAAGH8odJhH5W7Co="
+							},
+							"name": "getNombreCliente",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGH8o4oyn7wT/I=",
+									"_parent": {
+										"$ref": "AAAAAAGH8okd3n66Pjg="
+									},
+									"type": "String",
+									"direction": "return"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAGH8okhKH7Av+U=",
+							"_parent": {
+								"$ref": "AAAAAAGH8odJhH5W7Co="
+							},
+							"name": "getNombreBanco",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGH8o5Rs37zrYM=",
+									"_parent": {
+										"$ref": "AAAAAAGH8okhKH7Av+U="
+									},
+									"type": "String",
+									"direction": "return"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAGH8okn+H7Gk/E=",
+							"_parent": {
+								"$ref": "AAAAAAGH8odJhH5W7Co="
+							},
+							"name": "getValorCheque",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGH8o6L5X721Pk=",
+									"_parent": {
+										"$ref": "AAAAAAGH8okn+H7Gk/E="
+									},
+									"type": "double",
+									"direction": "return"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAGH8ow5sH7gdMM=",
+							"_parent": {
+								"$ref": "AAAAAAGH8odJhH5W7Co="
+							},
+							"name": "getComision",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGH8o/7JX78C6w=",
+									"_parent": {
+										"$ref": "AAAAAAGH8ow5sH7gdMM="
+									},
+									"type": "double",
+									"direction": "return"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

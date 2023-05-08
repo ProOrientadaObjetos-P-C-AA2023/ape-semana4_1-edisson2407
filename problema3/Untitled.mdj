@@ -1,0 +1,784 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Untitled",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAFF+qBWK6M3Z8Y=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model",
+			"ownedElements": [
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAFF+qBtyKM79qY=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Main",
+					"defaultDiagram": true,
+					"ownedViews": [
+						{
+							"_type": "UMLClassView",
+							"_id": "AAAAAAGH8jNDvJJYnZE=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"model": {
+								"$ref": "AAAAAAGH8jNDu5JWpEY="
+							},
+							"subViews": [
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "AAAAAAGH8jNDvJJZpo8=",
+									"_parent": {
+										"$ref": "AAAAAAGH8jNDvJJYnZE="
+									},
+									"model": {
+										"$ref": "AAAAAAGH8jNDu5JWpEY="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGH8jNDvJJazfs=",
+											"_parent": {
+												"$ref": "AAAAAAGH8jNDvJJZpo8="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGH8jNDvZJb0iE=",
+											"_parent": {
+												"$ref": "AAAAAAGH8jNDvJJZpo8="
+											},
+											"font": "Arial;13;1",
+											"left": 293,
+											"top": 343,
+											"width": 442.583984375,
+											"height": 13,
+											"text": "Automotor"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGH8jNDvZJc4zw=",
+											"_parent": {
+												"$ref": "AAAAAAGH8jNDvJJZpo8="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"width": 73.67724609375,
+											"height": 13,
+											"text": "(from Model)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGH8jNDvZJdkH4=",
+											"_parent": {
+												"$ref": "AAAAAAGH8jNDvJJZpo8="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"height": 13,
+											"horizontalAlignment": 1
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 288,
+									"top": 336,
+									"width": 452.583984375,
+									"height": 25,
+									"stereotypeLabel": {
+										"$ref": "AAAAAAGH8jNDvJJazfs="
+									},
+									"nameLabel": {
+										"$ref": "AAAAAAGH8jNDvZJb0iE="
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAGH8jNDvZJc4zw="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGH8jNDvZJdkH4="
+									}
+								},
+								{
+									"_type": "UMLAttributeCompartmentView",
+									"_id": "AAAAAAGH8jNDvZJevGo=",
+									"_parent": {
+										"$ref": "AAAAAAGH8jNDvJJYnZE="
+									},
+									"model": {
+										"$ref": "AAAAAAGH8jNDu5JWpEY="
+									},
+									"subViews": [
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAGH8jN1gpKDRHQ=",
+											"_parent": {
+												"$ref": "AAAAAAGH8jNDvZJevGo="
+											},
+											"model": {
+												"$ref": "AAAAAAGH8jN1fZKAE08="
+											},
+											"font": "Arial;13;0",
+											"left": 293,
+											"top": 366,
+											"width": 442.583984375,
+											"height": 13,
+											"text": "-cedulaDueno: String",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAGH8jPY6JKKjgE=",
+											"_parent": {
+												"$ref": "AAAAAAGH8jNDvZJevGo="
+											},
+											"model": {
+												"$ref": "AAAAAAGH8jPY5ZKH9iQ="
+											},
+											"font": "Arial;13;0",
+											"left": 293,
+											"top": 381,
+											"width": 442.583984375,
+											"height": 13,
+											"text": "-marca: String",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAGH8jQLgJKRYsQ=",
+											"_parent": {
+												"$ref": "AAAAAAGH8jNDvZJevGo="
+											},
+											"model": {
+												"$ref": "AAAAAAGH8jQLfJKO9nE="
+											},
+											"font": "Arial;13;0",
+											"left": 293,
+											"top": 396,
+											"width": 442.583984375,
+											"height": 13,
+											"text": "-anioFabri: int",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAGH8jROY5KYzQ8=",
+											"_parent": {
+												"$ref": "AAAAAAGH8jNDvZJevGo="
+											},
+											"model": {
+												"$ref": "AAAAAAGH8jROX5KVqqo="
+											},
+											"font": "Arial;13;0",
+											"left": 293,
+											"top": 411,
+											"width": 442.583984375,
+											"height": 13,
+											"text": "-valor: double",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAGH8jSDiJKf+W0=",
+											"_parent": {
+												"$ref": "AAAAAAGH8jNDvZJevGo="
+											},
+											"model": {
+												"$ref": "AAAAAAGH8jSDhJKcaUE="
+											},
+											"font": "Arial;13;0",
+											"left": 293,
+											"top": 426,
+											"width": 442.583984375,
+											"height": 13,
+											"text": "-valorMatric: double",
+											"horizontalAlignment": 0
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 288,
+									"top": 361,
+									"width": 452.583984375,
+									"height": 83
+								},
+								{
+									"_type": "UMLOperationCompartmentView",
+									"_id": "AAAAAAGH8jNDvZJfUb0=",
+									"_parent": {
+										"$ref": "AAAAAAGH8jNDvJJYnZE="
+									},
+									"model": {
+										"$ref": "AAAAAAGH8jNDu5JWpEY="
+									},
+									"subViews": [
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAGH8jS/k5Km5aY=",
+											"_parent": {
+												"$ref": "AAAAAAGH8jNDvZJfUb0="
+											},
+											"model": {
+												"$ref": "AAAAAAGH8jS/jZKjDfg="
+											},
+											"font": "Arial;13;0",
+											"left": 293,
+											"top": 449,
+											"width": 442.583984375,
+											"height": 13,
+											"text": "+Automotor()",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAGH8jThCZKsdD4=",
+											"_parent": {
+												"$ref": "AAAAAAGH8jNDvZJfUb0="
+											},
+											"model": {
+												"$ref": "AAAAAAGH8jThBZKpf2E="
+											},
+											"font": "Arial;13;0",
+											"left": 293,
+											"top": 464,
+											"width": 442.583984375,
+											"height": 13,
+											"text": "+Automotor(cedulaDueno: String, marca: String, anioFabri: int, valor: double)",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAGH8jTl4pKyorU=",
+											"_parent": {
+												"$ref": "AAAAAAGH8jNDvZJfUb0="
+											},
+											"model": {
+												"$ref": "AAAAAAGH8jTl3pKv4Js="
+											},
+											"font": "Arial;13;0",
+											"left": 293,
+											"top": 479,
+											"width": 442.583984375,
+											"height": 13,
+											"text": "+setCedulaDueno(cedulaDueno: String): void",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAGH8jTqDJK445Q=",
+											"_parent": {
+												"$ref": "AAAAAAGH8jNDvZJfUb0="
+											},
+											"model": {
+												"$ref": "AAAAAAGH8jTqCZK1hp4="
+											},
+											"font": "Arial;13;0",
+											"left": 293,
+											"top": 494,
+											"width": 442.583984375,
+											"height": 13,
+											"text": "+setMarca(marca: String): void",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAGH8jTtc5K+O7Q=",
+											"_parent": {
+												"$ref": "AAAAAAGH8jNDvZJfUb0="
+											},
+											"model": {
+												"$ref": "AAAAAAGH8jTtbpK7kpo="
+											},
+											"font": "Arial;13;0",
+											"left": 293,
+											"top": 509,
+											"width": 442.583984375,
+											"height": 13,
+											"text": "+setAnioFabri(anioFabri: int): void",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAGH8jTw45LE95Y=",
+											"_parent": {
+												"$ref": "AAAAAAGH8jNDvZJfUb0="
+											},
+											"model": {
+												"$ref": "AAAAAAGH8jTw4JLBfgc="
+											},
+											"font": "Arial;13;0",
+											"left": 293,
+											"top": 524,
+											"width": 442.583984375,
+											"height": 13,
+											"text": "+calcularValorMatric(): void",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAGH8jT0aJLKWH8=",
+											"_parent": {
+												"$ref": "AAAAAAGH8jNDvZJfUb0="
+											},
+											"model": {
+												"$ref": "AAAAAAGH8jT0ZJLH0n4="
+											},
+											"font": "Arial;13;0",
+											"left": 293,
+											"top": 539,
+											"width": 442.583984375,
+											"height": 13,
+											"text": "+getCedulaDueno(): String",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAGH8jT4FZLQKRo=",
+											"_parent": {
+												"$ref": "AAAAAAGH8jNDvZJfUb0="
+											},
+											"model": {
+												"$ref": "AAAAAAGH8jT4EZLNlSI="
+											},
+											"font": "Arial;13;0",
+											"left": 293,
+											"top": 554,
+											"width": 442.583984375,
+											"height": 13,
+											"text": "+getMarca(): String",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAGH8j1IqZLx85o=",
+											"_parent": {
+												"$ref": "AAAAAAGH8jNDvZJfUb0="
+											},
+											"model": {
+												"$ref": "AAAAAAGH8j1IpZLumFI="
+											},
+											"font": "Arial;13;0",
+											"left": 293,
+											"top": 569,
+											"width": 442.583984375,
+											"height": 13,
+											"text": "+getAnioFabri(): int",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAGH8j1Pm5L3+ko=",
+											"_parent": {
+												"$ref": "AAAAAAGH8jNDvZJfUb0="
+											},
+											"model": {
+												"$ref": "AAAAAAGH8j1Pl5L0sn8="
+											},
+											"font": "Arial;13;0",
+											"left": 293,
+											"top": 584,
+											"width": 442.583984375,
+											"height": 13,
+											"text": "+getValor(): double",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAGH8j9B1ZMJN58=",
+											"_parent": {
+												"$ref": "AAAAAAGH8jNDvZJfUb0="
+											},
+											"model": {
+												"$ref": "AAAAAAGH8j9BzpMGaLQ="
+											},
+											"font": "Arial;13;0",
+											"left": 293,
+											"top": 599,
+											"width": 442.583984375,
+											"height": 13,
+											"text": "+getValorMatric(): double",
+											"horizontalAlignment": 0
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 288,
+									"top": 444,
+									"width": 452.583984375,
+									"height": 173
+								},
+								{
+									"_type": "UMLReceptionCompartmentView",
+									"_id": "AAAAAAGH8jNDvZJgQjM=",
+									"_parent": {
+										"$ref": "AAAAAAGH8jNDvJJYnZE="
+									},
+									"model": {
+										"$ref": "AAAAAAGH8jNDu5JWpEY="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLTemplateParameterCompartmentView",
+									"_id": "AAAAAAGH8jNDvZJhsLg=",
+									"_parent": {
+										"$ref": "AAAAAAGH8jNDvJJYnZE="
+									},
+									"model": {
+										"$ref": "AAAAAAGH8jNDu5JWpEY="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"width": 10,
+									"height": 10
+								}
+							],
+							"font": "Arial;13;0",
+							"containerChangeable": true,
+							"left": 288,
+							"top": 336,
+							"width": 452.583984375,
+							"height": 281,
+							"nameCompartment": {
+								"$ref": "AAAAAAGH8jNDvJJZpo8="
+							},
+							"attributeCompartment": {
+								"$ref": "AAAAAAGH8jNDvZJevGo="
+							},
+							"operationCompartment": {
+								"$ref": "AAAAAAGH8jNDvZJfUb0="
+							},
+							"receptionCompartment": {
+								"$ref": "AAAAAAGH8jNDvZJgQjM="
+							},
+							"templateParameterCompartment": {
+								"$ref": "AAAAAAGH8jNDvZJhsLg="
+							}
+						}
+					]
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAGH8jNDu5JWpEY=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Automotor",
+					"attributes": [
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAGH8jN1fZKAE08=",
+							"_parent": {
+								"$ref": "AAAAAAGH8jNDu5JWpEY="
+							},
+							"name": "cedulaDueno",
+							"visibility": "private",
+							"type": "String"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAGH8jPY5ZKH9iQ=",
+							"_parent": {
+								"$ref": "AAAAAAGH8jNDu5JWpEY="
+							},
+							"name": "marca",
+							"visibility": "private",
+							"type": "String"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAGH8jQLfJKO9nE=",
+							"_parent": {
+								"$ref": "AAAAAAGH8jNDu5JWpEY="
+							},
+							"name": "anioFabri",
+							"visibility": "private",
+							"type": "int"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAGH8jROX5KVqqo=",
+							"_parent": {
+								"$ref": "AAAAAAGH8jNDu5JWpEY="
+							},
+							"name": "valor",
+							"visibility": "private",
+							"type": "double"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAGH8jSDhJKcaUE=",
+							"_parent": {
+								"$ref": "AAAAAAGH8jNDu5JWpEY="
+							},
+							"name": "valorMatric",
+							"visibility": "private",
+							"type": "double"
+						}
+					],
+					"operations": [
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAGH8jS/jZKjDfg=",
+							"_parent": {
+								"$ref": "AAAAAAGH8jNDu5JWpEY="
+							},
+							"name": "Automotor"
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAGH8jThBZKpf2E=",
+							"_parent": {
+								"$ref": "AAAAAAGH8jNDu5JWpEY="
+							},
+							"name": "Automotor",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGH8jqgRJLWKhE=",
+									"_parent": {
+										"$ref": "AAAAAAGH8jThBZKpf2E="
+									},
+									"name": "cedulaDueno",
+									"type": "String"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGH8jqgRJLXWGg=",
+									"_parent": {
+										"$ref": "AAAAAAGH8jThBZKpf2E="
+									},
+									"name": "marca",
+									"type": "String"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGH8jqgRJLYQhY=",
+									"_parent": {
+										"$ref": "AAAAAAGH8jThBZKpf2E="
+									},
+									"name": "anioFabri",
+									"type": "int"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGH8jqgRJLZYZ4=",
+									"_parent": {
+										"$ref": "AAAAAAGH8jThBZKpf2E="
+									},
+									"name": "valor",
+									"type": "double"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAGH8jTl3pKv4Js=",
+							"_parent": {
+								"$ref": "AAAAAAGH8jNDu5JWpEY="
+							},
+							"name": "setCedulaDueno",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGH8jsdKZLfqAA=",
+									"_parent": {
+										"$ref": "AAAAAAGH8jTl3pKv4Js="
+									},
+									"name": "cedulaDueno",
+									"type": "String"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGH8jsdKZLgyb8=",
+									"_parent": {
+										"$ref": "AAAAAAGH8jTl3pKv4Js="
+									},
+									"type": "void",
+									"direction": "return"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAGH8jTqCZK1hp4=",
+							"_parent": {
+								"$ref": "AAAAAAGH8jNDu5JWpEY="
+							},
+							"name": "setMarca",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGH8jyPG5LlTWE=",
+									"_parent": {
+										"$ref": "AAAAAAGH8jTqCZK1hp4="
+									},
+									"name": "marca",
+									"type": "String"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGH8jyPG5LmD4E=",
+									"_parent": {
+										"$ref": "AAAAAAGH8jTqCZK1hp4="
+									},
+									"type": "void",
+									"direction": "return"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAGH8jTtbpK7kpo=",
+							"_parent": {
+								"$ref": "AAAAAAGH8jNDu5JWpEY="
+							},
+							"name": "setAnioFabri",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGH8jzfdpLqfnQ=",
+									"_parent": {
+										"$ref": "AAAAAAGH8jTtbpK7kpo="
+									},
+									"name": "anioFabri",
+									"type": "int"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGH8jzfdpLrrB4=",
+									"_parent": {
+										"$ref": "AAAAAAGH8jTtbpK7kpo="
+									},
+									"type": "void",
+									"direction": "return"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAGH8jTw4JLBfgc=",
+							"_parent": {
+								"$ref": "AAAAAAGH8jNDu5JWpEY="
+							},
+							"name": "calcularValorMatric",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGH8j4+2pL7mNM=",
+									"_parent": {
+										"$ref": "AAAAAAGH8jTw4JLBfgc="
+									},
+									"type": "void",
+									"direction": "return"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAGH8jT0ZJLH0n4=",
+							"_parent": {
+								"$ref": "AAAAAAGH8jNDu5JWpEY="
+							},
+							"name": "getCedulaDueno",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGH8j6QMpL+VvM=",
+									"_parent": {
+										"$ref": "AAAAAAGH8jT0ZJLH0n4="
+									},
+									"type": "String",
+									"direction": "return"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAGH8jT4EZLNlSI=",
+							"_parent": {
+								"$ref": "AAAAAAGH8jNDu5JWpEY="
+							},
+							"name": "getMarca",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGH8j7uvJMBF6g=",
+									"_parent": {
+										"$ref": "AAAAAAGH8jT4EZLNlSI="
+									},
+									"type": "String",
+									"direction": "return"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAGH8j1IpZLumFI=",
+							"_parent": {
+								"$ref": "AAAAAAGH8jNDu5JWpEY="
+							},
+							"name": "getAnioFabri",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGH8j8ospMEBNc=",
+									"_parent": {
+										"$ref": "AAAAAAGH8j1IpZLumFI="
+									},
+									"type": "int",
+									"direction": "return"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAGH8j1Pl5L0sn8=",
+							"_parent": {
+								"$ref": "AAAAAAGH8jNDu5JWpEY="
+							},
+							"name": "getValor",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGH8j97nJMNr08=",
+									"_parent": {
+										"$ref": "AAAAAAGH8j1Pl5L0sn8="
+									},
+									"type": "double",
+									"direction": "return"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAGH8j9BzpMGaLQ=",
+							"_parent": {
+								"$ref": "AAAAAAGH8jNDu5JWpEY="
+							},
+							"name": "getValorMatric",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGH8j+rrpMQ3z8=",
+									"_parent": {
+										"$ref": "AAAAAAGH8j9BzpMGaLQ="
+									},
+									"type": "double",
+									"direction": "return"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
